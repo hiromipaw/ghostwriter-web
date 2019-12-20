@@ -1,0 +1,9 @@
+_model: page
+---
+title: Open Source
+---
+
+body:
+
+GhostWriter is Licensed in GPL3 and it's written in Python. It uses [Lektor](https://www.getlektor.com/) to edit webpages, [OnionShare](https://onionshare.org)
+to spawn a .onion or a [Docker](https://www.docker.com/) container running on your machine.

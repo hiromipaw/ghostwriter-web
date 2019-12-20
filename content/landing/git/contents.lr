@@ -1,0 +1,15 @@
+_hidden: true
+---
+_model: step
+---
+title: Handle version control via git transparently
+---
+image: /static/images/undraw_developer_activity_bv83.png
+---
+body:
+
+You can push your changes to your git repository or rebase from an upstream.
+Because you are building out 100% static HTML you can deploy them to any host
+(including S3, GitHub Pages, any web host, etc.). GhostWriter was also built with
+collaboration in mind. So if you repository has been forked from an upstream
+project, you can pull changes transparently.

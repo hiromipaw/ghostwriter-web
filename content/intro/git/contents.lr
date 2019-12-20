@@ -1,0 +1,11 @@
+_hidden: true
+---
+_model: step
+---
+title: Version control via git
+---
+image: /static/images/undraw_code_review_l1q9.png
+---
+body:
+
+You can push your changes to your git repository or rebase from an upstream.

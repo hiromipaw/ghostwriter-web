@@ -1,0 +1,15 @@
+{% include 'meta.html' %}
+<body>
+  {% include 'header.html' %}
+  {% include 'hero.html' %}
+  {% include 'intro.html' %}
+  {% include 'landing.html' %}
+  <div class="cta cta--reverse">
+		<div class="container">
+			<div class="cta__inner">
+        {% block body %}{% endblock %}
+      </div>
+    </div>
+  </div>
+  {% include 'footer.html' %}
+</body>

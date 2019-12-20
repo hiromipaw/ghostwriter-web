@@ -1,0 +1,15 @@
+_hidden: true
+---
+_model: step
+---
+title: Edit web pages right away
+---
+image: /static/images/undraw_web_development_w2vv.png
+---
+body:
+
+GhostWriter allows website editing without a learning curve. With Lektor it
+starts a local powerful static content management system for building complex and
+beautiful websites out of flat files. Using Lektor you can enjoy a fully equipped,
+flexible and beautiful admin interface so you can edit your pages without having
+to touch the raw sources. It is cross platform. It runs on Linux, OSX and Windows.

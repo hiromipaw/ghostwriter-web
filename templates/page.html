@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+  <h2 class="cta__title">{{ this.title }}</h2>
+  {{ this.body }}
+  <h3 class="cta__title" id="download">Download</h3>
+  <div class="downloads">
+    <a href="#" class="button hero__button button-round"><i class="fab fa-apple"></i></a>
+    <a href="#" class="button hero__button button-round"><i class="fab fa-ubuntu"></i></a>
+    <a href="#" class="button hero__button button-round"><i class="fas fa-file-code"></i></a>
+  </div>
+{% endblock %}

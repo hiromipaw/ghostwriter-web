@@ -1,0 +1,17 @@
+{% set items = site.query('/landing').include_undiscoverable(true).order_by('title') %}
+{% for item in items %}
+  <!-- Expanded sections -->
+  <div class="expanded landing__section">
+  	<div class="container">
+  		<div class="expanded__inner">
+  			<div class="expanded__media">
+  				<img src="{{ item.image|asseturl }}" class="expanded__image">
+  			</div>
+  			<div class="expanded__content">
+  				<h2 class="expanded__title">{{ item.title }}</h2>
+  				<p class="expanded__text"> {{ item.body }}</p>
+  			</div>
+  		</div>
+  	</div>
+  </div>
+{% endfor %}

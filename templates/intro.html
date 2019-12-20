@@ -1,0 +1,24 @@
+<!-- Steps -->
+<div class="steps landing__section" id="about">
+	<div class="container">
+		<img src="{{ '/static/images/ghostwriter.png'|asseturl }}" />
+		{% set intro = site.get('/intro') %}
+		<h2>{{ intro.title }}</h2>
+		<p>{{ intro.body }}</p>
+	</div>
+	<div class="container">
+		<div class="steps__inner">
+			{% set items = site.query('/intro').include_undiscoverable(true).order_by('title') %}
+			{% for item in items %}
+				<div class="step">
+					<div class="step__media">
+						<img src="{{ item.image|asseturl }}" class="step__image">
+					</div>
+					<h4>{{ item.title }}</h4>
+					<p class="step__text">{{ item.body }}</p>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>
+<!-- Expanded sections -->
